@@ -1,17 +1,4 @@
 /* მთავარი  */
-/* .container{
-    width: 1920px;
-    height: 1080px;
-    margin: 0 auto;
-}
-.main-content{
-    width: 1616px;
-    height: 1080px;
-    background-image: url(../images/Layer1.jpg.jpg);
-    background-position: center;
-    background-size: cover;
-    
-} */
 
 .wrapper{
     display: flex;
