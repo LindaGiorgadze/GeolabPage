@@ -1,3 +1,126 @@
 body{
     background-color: #292C2C;
 }
+header{
+    max-width: 143px;
+    width: 8%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #EDDFD8;
+}
+.header-div{
+    margin: 50px auto;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.buger-bar{
+    width: 42px;
+}
+.social-div{
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-h{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    color: #662E80;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.social-h::after{
+    content: '';
+    display: inline-block;
+    background-color: #662E80;
+    width: 74.5px;
+    height: 1px;
+    margin-left: 10px;
+    margin-right: -3px;
+}
+.social-links{
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #662E80;
+    margin-left: 24px;
+}
+.social-links-2{
+    font-size: 11px;
+    text-transform: capitalize;
+    color: #662E80;
+    margin-left: 24px;
+}
+
+/* main section */
+main{
+    margin-left: 8%;
+    width: 92%;
+    height: 100%;
+    background-image: url(../images/Layer-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dev-basic-four{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr;
+    grid-auto-rows: minmax(540px, auto);
+    grid-auto-columns: minmax(725px, auto);
+}
+.dev-child-div{
+    text-align: center;
+    border-right: 4px solid #EDDFD8;
+    border-bottom: 4px solid #EDDFD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dev-child-div:nth-child(odd){
+    border-right: none;
+}
+.dev-child-div:last-child,
+.dev-child-div:first-child{
+    border-bottom: none;
+    border-right: 4px solid #EDDFD8;
+}
+.dev-a-div{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.dev-a{
+    color: #EDDFD8;
+    font-size: 50px;
+    line-height: 67px;
+    width: auto;
+    text-transform: uppercase;
+}
+.back-a{
+    width: 210px;
+    font-size: 27px;
+    line-height: 36px;    
+}
+.back-a span{
+    font-size: 20px;
+    line-height: 27px;
+}
+.dev-img-div{
+    width: fit-content;
+}
+.dev-a-img{
+    margin-top: 26px;
+    width: 79px;
+}
+.box-1{
+    grid-row: 1/3;
+}
