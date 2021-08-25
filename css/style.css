@@ -14,6 +14,7 @@
 }
 .fa-grip-lines{
    font-size: 40px;
+   color: #662E80;
 }
 .slidebar{
     position: sticky;
@@ -41,7 +42,6 @@
 .main-content{
     width: 1616px;
     height: 1080px;
-    /* background-image: url(../images/Layer1.jpg.jpg); */
     background: url(../images/main.png) repeat, linear-gradient(rgb(0 0 0 / 100%) 100%, #FFFF 100%);
     background-position: center;
     background-size: cover;
@@ -95,4 +95,89 @@
 }
 .social :nth-child(5){
     font-size: 10px;
+}
+
+/* სწავლება1 */
+.back{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 123px;
+}
+.fa-arrow-left{
+    font-size: 40px;
+    margin: 0 auto;
+    color:#662E80 ;
+}
+.social1{
+    display: flex;
+    justify-content: space-between;
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+    width: 14px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 123px;
+    margin-bottom: 196px;
+}
+.main-content2{
+    background: url(../images/learn.png) repeat, linear-gradient(rgb(0 0 0 / 100%) 100%, #FFFF 100%);
+    width: 1616px;
+    height: 1080px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+}
+.block1{
+    width: 33%;
+    border-right: 6px solid #EDDFD8;
+
+}
+.block1 a{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-top: solid 10px;
+  
+}
+.block1 a h3{
+    padding-top: 498px;
+    font-size: 50px;
+    color:#EDDFD8 ;
+}
+
+.block2{
+    width: 33%;
+    border-right: 6px solid #EDDFD8;
+}
+.block2 a{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-top: solid 10px;
+   
+}
+.block2 a h3{
+    padding-top: 498px;
+    font-size: 50px;
+    color:#EDDFD8 ;
+}
+.block3{
+    width: 33%;
+}
+.block3 a{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-top: solid 10px;
+   
+}
+.block3 a h3{
+    padding-top: 498px;
+    font-size: 50px;
+    color:#EDDFD8 ;
 }
