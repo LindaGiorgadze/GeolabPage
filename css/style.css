@@ -8,7 +8,7 @@ header{
     z-index: 10;
 }
 .header-div{
-    margin: 50px auto;
+    margin: 30% auto;
     height: 85%;
     display: flex;
     justify-content: space-between;
@@ -18,11 +18,24 @@ header{
 .burger-bar-div{
     cursor: pointer;
 }
-.buger-bar{
+.bar{
     width: 42px;
+    height: 2px;
+    border-radius: 50px;
+    border-color: #692a86;
 }
 
 /* overlay menu */
+/*.stik1{
+    transform: rotate(-28deg);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.stik2{
+    transform: rotate(28deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}*/
 .menu{
     display: none;
     position: fixed;
@@ -192,7 +205,6 @@ header{
     color: #662E80;
 }
 
-
 /* inside header */
 .social-div{
     transform: rotate(-90deg);
@@ -248,9 +260,7 @@ header{
     height: 100vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 1.2fr 2.5fr 2.5fr;
-    /* grid-auto-rows: minmax(540px, auto);
-    grid-auto-columns: minmax(725px, auto); */
+    grid-template-columns: 1fr 3fr 3fr;
 }
 .dev-child-div{
     height: 50vh;
@@ -282,6 +292,7 @@ header{
     text-align: left;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .dev-a{
     color: #EDDFD8;
@@ -291,16 +302,20 @@ header{
     text-transform: uppercase;
 }
 .back-a{
-    width: 280px;
-    font-size: 27px;
+    width: 100%;
+    height: 50vh;
+    font-size: 130%;
     line-height: 36px;  
     background-color: #292c2c49; 
-    padding: 15vh 30px; 
+    padding: 15vh 1.8vh; 
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .back-a:hover{
     background-color: #292c2ca4; 
-    padding: 35vh 30px;
+    padding: 35vh 1.8vh;
     transition: ease-in 0.15s;
 }
 .back-a span{
@@ -316,43 +331,24 @@ header{
 }
 
 /* design basic six main section */
-.backto-page-space{
-    background-color: #060606;
-    margin-left: 7%;
-    width: 17%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-.backto-page{
-    width: 17%;
-    height: 100%;
+.basic-design-shadow{
+    width: 100%;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 7%;
-    background-color: #292c2c8e;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
 }
-.course-info{
-    margin-left: 24%;
-    width: 83%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+.backto-page-space{
+    background-color: #060606;
+}
+.course-info-space{
     background-color: #EDDFD8;
-}
-.course{
-    width: 83%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 24%;
-    background-color: #eddfd88f;
 }
 .bk-img{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 12%;
@@ -360,4 +356,136 @@ header{
     background-position: left;
     background-repeat: no-repeat;
     background-size: 43%;
+}
+.design-six-grid{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 7%;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.course-grid{
+    background-color: #2322218f;
+}
+.course-info-a{
+    background-color: #2322214d;
+}
+.course-info-a:hover{
+    background-color: #2322218e;
+}
+.course-fraction{
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 10vh;
+    padding-right: 15%;
+    background-color: #eddfd88f;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-course{
+    width: 60%;
+}
+.course-h4{
+    color: #662E80;
+    font-size: 25px;
+    line-height: 33px;
+}
+.course-h2{
+    margin-bottom: 50px;
+    color: #662E80;
+    font-size: 50px;
+    line-height: 67px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 87px;
+}
+.course-details{
+    font-size: 25px;
+    line-height: 33px;
+    color: #232221;
+}
+.course-detail-span{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #662E80;
+}
+.course-article{
+    margin-bottom: 20px;
+    max-width: 690px;
+    width: 92%;
+}
+.course-paragraph{
+    font-size: 18px;
+    line-height: 24px;
+    color: #060606;
+    margin-bottom: 15px;
+}
+.sign-up-course{
+    max-width: 690px;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 79px;
+}
+.syllabus{
+    display: flex;
+    align-items: flex-end;
+    font-size: 16px;
+    color: #662E80;    
+}
+.syllabus-img{
+    width: 29px;
+    margin-right: 28px;
+}
+.sign-up-1{
+    font-size: 20px;
+    color: #F5F1EF;
+    background-color: #662E80;
+    padding: 11px 28px;
+}
+.lecturers-div{
+    padding-bottom: 80px
+}
+.lecturer-h{
+    font-size: 30px;
+    line-height: 40px;
+    color: #662E80;
+    margin-bottom: 27px;
+}
+.lecturer{
+    width: 480px;
+    background-color: #FFF0E8;
+    font-size: 25px;
+    line-height: 33px;
+    color: #662E80;
+    padding-top: 22px;
+}
+.lecturer-name{
+    padding-left: 20px;
+}
+.lecturer-position{
+    font-size: 20px;
+    line-height: 27px;
+    color: #662E80;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 20px 10px 20px;
+}
+.nextpg-arrow{
+    width: 45px;
+}
+.lecturer-pic{
+    display: block;
 }
