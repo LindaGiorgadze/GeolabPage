@@ -295,11 +295,34 @@ header{
     align-items: center;
 }
 .dev-a{
+    position: relative;
     color: #EDDFD8;
     font-size: 50px;
     line-height: 67px;
     width: auto;
     text-transform: uppercase;
+}
+.hover-dev-a{
+    position: absolute;
+    top: 18.5%;
+    right: -50px;
+    width: 29vh;
+    height: 2px;
+    border-bottom: thick solid #EDDFD8;
+    display: none;
+}
+.hover-dev-a-2{
+    position: absolute;
+    top: 68.5%;
+    left: -50px;
+    width: 29vh;
+    height: 2px;
+    border-bottom: thick solid #EDDFD8;
+    display: none;
+}
+.dev-a:hover hr{
+    display: block;
+    transition: ease-in 0.1s;
 }
 .back-a{
     width: 100%;
