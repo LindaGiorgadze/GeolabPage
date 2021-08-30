@@ -25,6 +25,16 @@
   .back-a {
     font-size: 22px;
   }
+  .hover-dev-a{
+    top: 32.4%;
+    width: 50%;
+    right: -30px;
+  }
+  .hover-dev-a-2{
+    top: 82.4%;
+    width: 50%;
+    left: -30px;
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -88,6 +98,9 @@
     border: none;
     border-bottom: 4px solid #eddfd8;
   }
+  .dev-child-div:nth-child(2) {
+    height: 70vh;
+  }
   .dev-child-div:last-child,
   .dev-child-div:first-child {
     border: none;
@@ -102,13 +115,14 @@
   }
   .box-1{
     width: 100%;
-    height: 12vh;
+    height: 20vh;
     position: fixed;
     top: 0;
     left: 0;
     grid-row: auto;
     background: linear-gradient(#292C2C, #292c2ce7, #292c2cc2, #292c2c00);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(4px);
+    z-index: 1;
   }
   .back-a {
     width: 100%;
@@ -119,7 +133,7 @@
     font-size: 18px;
     line-height: 24px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     background: none;
   }
