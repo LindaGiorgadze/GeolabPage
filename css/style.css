@@ -495,19 +495,22 @@ header{
     position: absolute;
     top: 37.4%;
     right: -50px;
-    width: 70%;
+    width: 60%;
     height: 5px;
     background-color: #EDDFD8;
     display: none;
 }
-.hover-dev-a-2{
-    position: absolute;
+.hover-stick-2{
     top: 87.3%;
     left: -50px;
-    width: 70%;
-    height: 5px;
-    background-color: #EDDFD8;
-    display: none;
+}
+.hover-stick-3{
+    top: 75%;
+    left: -50px;
+}
+.hover-stick-4{
+    top: 75%;
+    right: -5px;
 }
 .dev-a:hover div{
     display: block;
@@ -563,11 +566,16 @@ header{
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 12%;
-    background-image: url(../images/Layer-3.png);
+    left: 12%;    
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 43%;
+    background-size: 39%;
+}
+.design-6{
+    background-image: url(../images/Layer-3.png);
+}
+.design-7{
+    background-image: url(../images/Layer-4.png);
 }
 .design-six-grid{
     width: 100%;

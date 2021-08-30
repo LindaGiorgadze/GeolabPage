@@ -1,3 +1,28 @@
+@media (max-width: 1124px) {
+  /* development basic four */
+  .dev-a {
+    font-size: 38px;
+  }
+  .back-a {
+    font-size: 22px;
+  }
+  .hover-dev-a {
+    top: 34%;
+    right: -50px;
+  }
+  .hover-stick-2 {
+    top: 85%;
+    left: -50px;
+  }
+  .hover-stick-3 {
+    top: 71%;
+    left: -50px;
+  }
+  .hover-stick-4 {
+    top: 71%;
+    right: -5px;
+  }
+}
 @media (max-width: 1024px) {
   /* header */
   .social-h {
@@ -20,26 +45,36 @@
   }
   /* development basic four */
   .dev-a {
-    font-size: 32px;
+    font-size: 30px;
   }
   .back-a {
     font-size: 22px;
   }
-  .hover-dev-a{
-    top: 32.4%;
+  .hover-dev-a {
+    top: 31%;
+    right: -50px;
     width: 50%;
-    right: -30px;
+    right: -20px;
   }
-  .hover-dev-a-2{
-    top: 82.4%;
-    width: 50%;
-    left: -30px;
+  .hover-stick-2 {
+    top: 82%;
+    left: -50px;
+    left: -20px;
+  }
+  .hover-stick-3 {
+    top: 68%;
+    left: -50px;
+    left: -20px;
+  }
+  .hover-stick-4 {
+    top: 68%;
+    right: -5px;
   }
 }
 @media (max-width: 768px) {
   header {
     background-color: inherit;
-    padding: 3% 10%;
+    padding: 0 10%;
   }
   .burger-bar-div {
     z-index: 11;
@@ -53,7 +88,7 @@
   .main-logo {
     display: none;
   }
-  .logo-div{
+  .logo-div {
     z-index: 11;
   }
   .responsive-logo {
@@ -63,21 +98,21 @@
     left: 0;
     width: 100%;
   }
-  .overlay{
+  .overlay {
     grid-template-columns: 1fr;
     overflow-x: hidden;
     overflow-y: auto;
     background-size: cover;
     background-position: -75px center;
   }
-  .navigation{
+  .navigation {
     padding: 17vh 36px 0 0;
   }
-  .nav-sign-in{
+  .nav-sign-in {
     display: block;
     width: 100%;
-}
-  .members-div{
+  }
+  .members-div {
     height: 40vh;
     grid-column: auto;
   }
@@ -105,22 +140,22 @@
   .dev-child-div:first-child {
     border: none;
   }
-  .dev-a-div{
+  .dev-a-div {
     width: 100%;
     text-align: end;
   }
-  .dev-a-img{
+  .dev-a-img {
     margin-top: 12px;
     width: 53px;
   }
-  .box-1{
+  .box-1 {
     width: 100%;
     height: 20vh;
     position: fixed;
     top: 0;
     left: 0;
     grid-row: auto;
-    background: linear-gradient(#292C2C, #292c2ce7, #292c2cc2, #292c2c00);
+    background: linear-gradient(#292c2c, #292c2ce7, #292c2cc2, #292c2c00);
     backdrop-filter: blur(4px);
     z-index: 1;
   }
@@ -137,8 +172,12 @@
     align-items: flex-end;
     background: none;
   }
-  .back-a span{
-      font-size: 12px;
-      line-height: 16px;
+  .back-a:hover{
+    padding: 0 8% 0 0;
+    background-color: inherit;
+  }
+  .back-a span {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
