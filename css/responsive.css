@@ -1,0 +1,144 @@
+@media (max-width: 1024px) {
+  /* header */
+  .social-h {
+    font-size: 12px;
+  }
+  .social-h::after {
+    width: 50px;
+  }
+  .social-links {
+    font-size: 10px;
+    margin-left: 14px;
+  }
+  .sign-up {
+    font-size: 14px;
+    padding: 10px 50px;
+  }
+  .sign-in {
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+  /* development basic four */
+  .dev-a {
+    font-size: 32px;
+  }
+  .back-a {
+    font-size: 22px;
+  }
+  .hover-dev-a{
+    top: 32.4%;
+    width: 50%;
+    right: -30px;
+  }
+  .hover-dev-a-2{
+    top: 82.4%;
+    width: 50%;
+    left: -30px;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    background-color: inherit;
+    padding: 3% 10%;
+  }
+  .burger-bar-div {
+    z-index: 11;
+  }
+  .bar {
+    background-color: #eddfd8;
+  }
+  .social-div {
+    display: none;
+  }
+  .main-logo {
+    display: none;
+  }
+  .logo-div{
+    z-index: 11;
+  }
+  .responsive-logo {
+    display: block;
+  }
+  .menu {
+    left: 0;
+    width: 100%;
+  }
+  .overlay{
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: cover;
+    background-position: -75px center;
+  }
+  .navigation{
+    padding: 17vh 36px 0 0;
+  }
+  .nav-sign-in{
+    display: block;
+    width: 100%;
+}
+  .members-div{
+    height: 40vh;
+    grid-column: auto;
+  }
+
+  /* development basic 4 */
+  .devBasicFour-main {
+    width: 100%;
+    margin-left: 0;
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .dev-basic-four {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+  }
+  .dev-child-div {
+    border: none;
+    border-bottom: 4px solid #eddfd8;
+  }
+  .dev-child-div:nth-child(2) {
+    height: 70vh;
+  }
+  .dev-child-div:last-child,
+  .dev-child-div:first-child {
+    border: none;
+  }
+  .dev-a-div{
+    width: 100%;
+    text-align: end;
+  }
+  .dev-a-img{
+    margin-top: 12px;
+    width: 53px;
+  }
+  .box-1{
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    grid-row: auto;
+    background: linear-gradient(#292C2C, #292c2ce7, #292c2cc2, #292c2c00);
+    backdrop-filter: blur(4px);
+    z-index: 1;
+  }
+  .back-a {
+    width: 100%;
+    height: 20vh;
+    grid-row: auto;
+    padding: 0 8% 0 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: none;
+  }
+  .back-a span{
+      font-size: 12px;
+      line-height: 16px;
+  }
+}
