@@ -185,7 +185,7 @@
 /* header and menu/navigation */
 header{
     width: 7%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -193,8 +193,8 @@ header{
     z-index: 10;
 }
 .header-div{
-    margin: 30% auto;
-    height: 85%;
+    margin: 5vh auto;
+    height: 90vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -233,10 +233,10 @@ header{
 }
 .overlay{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-auto-rows: 81%;
+    grid-template-columns: 1.4fr 1fr;
+    grid-auto-rows: 82vh;
     background-color: #F5F1EF;
     background-image: url(../images/menu.png);
     background-position: center;
@@ -304,6 +304,9 @@ header{
 .sign-in-div{
     margin-top: 18%;
     margin-bottom: 17%;
+}
+.nav-sign-in{
+    display: none;
 }
 .sign-in{
     font-size: 100%;
@@ -427,7 +430,9 @@ header{
     color: #662E80;
     margin-left: 24px;
 }
-
+.responsive-logo{
+    display: none;
+}
 /* devBasicFour main section */
 .devBasicFour-main{
     height: 100vh;
