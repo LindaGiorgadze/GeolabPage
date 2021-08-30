@@ -15,27 +15,26 @@ header{
     align-items: center;
     flex-direction: column;
 }
+
+/* overlay menu */
 .burger-bar-div{
     cursor: pointer;
 }
 .bar{
+    background-color: #662E86;
     width: 42px;
     height: 2px;
     border-radius: 50px;
-    border-color: #692a86;
 }
-
-/* overlay menu */
-/*.stik1{
-    transform: rotate(-28deg);
-    margin-bottom: 0;
-    margin-top: 0;
+.bar:first-child{
+    margin-bottom: 7px;
 }
-.stik2{
-    transform: rotate(28deg);
-    margin-top: 0;
-    margin-bottom: 0;
-}*/
+.burger-bar-div.opened.stik1{
+    transform: rotate(-28deg) translate(3px, -3px);
+}
+.burger-bar-div.opened.stik2{
+    transform: rotate(28deg) translate(-2px, -5px);
+}
 .menu{
     display: none;
     position: fixed;
@@ -304,23 +303,23 @@ header{
 }
 .hover-dev-a{
     position: absolute;
-    top: 18.5%;
+    top: 37.4%;
     right: -50px;
     width: 29vh;
-    height: 2px;
-    border-bottom: thick solid #EDDFD8;
+    height: 5px;
+    background-color: #EDDFD8;
     display: none;
 }
 .hover-dev-a-2{
     position: absolute;
-    top: 68.5%;
+    top: 87.3%;
     left: -50px;
     width: 29vh;
-    height: 2px;
-    border-bottom: thick solid #EDDFD8;
+    height: 5px;
+    background-color: #EDDFD8;
     display: none;
 }
-.dev-a:hover hr{
+.dev-a:hover div{
     display: block;
     transition: ease-in 0.1s;
 }
