@@ -2,9 +2,10 @@
 
 
 .wrapper{
-    display: flex;
-    width: 1920px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 .burger{
     display: flex;
@@ -45,10 +46,11 @@
     background: url(../images/main.png) repeat, linear-gradient(rgb(0 0 0 / 100%) 100%, #FFFF 100%);
     background-position: center;
     background-size: cover;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+ 
 }
 .left-block{
-    width: 50%;
     border-right: 6px solid #EDDFD8;
     
 }
@@ -64,9 +66,7 @@
 .left-block a h3{
     padding-top: 540px;
 }
-.right-block{
-    width: 50%;
-}
+
 .right-block a{
     height: 50%;
     width: 100%;
@@ -180,4 +180,28 @@
     padding-top: 498px;
     font-size: 50px;
     color:#EDDFD8 ;
+}
+/* design3 */
+.main-content3{
+    width: 1616px;
+    height: 1080px;
+    background: url(../images/main.png) repeat, linear-gradient(rgb(0 0 0 / 100%) 100%, #FFFF 100%);
+    background-position: center;
+    background-size: cover;
+
+}
+.basic{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+}
+
+.box1{
+    height: 50vh;
+    text-align: center;
+    display: flex;
+}
+.box{
+    height: 100vh;
+    grid-row: 1/3;
+    display: block;
 }
