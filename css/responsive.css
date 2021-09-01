@@ -1,4 +1,4 @@
-@media (max-width: 1124px) {
+@media (max-width: 1150px) {
   /* development basic four */
   .dev-a {
     font-size: 38px;
@@ -21,6 +21,30 @@
   .hover-stick-4 {
     top: 71%;
     right: -5px;
+  }
+  .digital-stick-1{
+    width: 40%;
+    top: 0%;
+    right: -4%;
+    display: none;
+  }
+  .digital-stick-2{
+    width: 40%;
+    top: 100%;
+    right: 64%;
+    display: none;
+  }
+  @keyframes digital-hover{
+    from {
+        display: block;
+        top: 0;
+        right: -4%;
+    }
+    to {
+        top: 100%;
+        right: 64%;
+        display: block;
+    }
   }
 }
 @media (max-width: 1024px) {
@@ -70,6 +94,30 @@
     top: 68%;
     right: -5px;
   }
+  .digital-stick-1{
+    width: 40%;
+    top: 0%;
+    right: -4%;
+    display: none;
+  }
+  .digital-stick-2{
+    width: 40%;
+    top: 100%;
+    right: 64%;
+    display: none;
+  }
+  @keyframes digital-hover{
+    from {
+        display: block;
+        top: 0;
+        right: -4%;
+    }
+    to {
+        top: 100%;
+        right: 64%;
+        display: block;
+    }
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -118,16 +166,16 @@
   }
 
   /* development basic 4 */
-  .devBasicFour-main {
+  .devBasicFour-main,.digital-five-main {
     width: 100%;
     margin-left: 0;
     background-size: cover;
-    overflow-y: auto;
-    overflow-x: hidden;
   }
   .dev-basic-four {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 2fr 2fr;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .dev-child-div {
     border: none;
@@ -139,6 +187,9 @@
   .dev-child-div:last-child,
   .dev-child-div:first-child {
     border: none;
+  }
+  .dev-child-div:last-child{
+    height: 0vh;
   }
   .dev-a-div {
     width: 100%;

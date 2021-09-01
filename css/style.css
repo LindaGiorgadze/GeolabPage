@@ -249,16 +249,18 @@ header{
     display: none;
 }
 /* devBasicFour main section */
-.devBasicFour-main{
+.course-main{
     height: 100vh;
     margin-left: 7%;
     width: 93%;
     height: 100%;
-    background-image: url(../images/Layer-2.png);
     background-color: #292C2C;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.devBasicFour-main{
+    background-image: url(../images/Layer-2.png);
 }
 .dev-basic-four{
     height: 100vh;
@@ -283,10 +285,15 @@ header{
 .dev-child-div:nth-child(odd){
     border-right: none;
 }
-.dev-child-div:last-child,
 .dev-child-div:first-child{
     border-bottom: none;
     border-right: 4px solid #EDDFD8;
+}
+.dev-child-div:nth-child(4){
+    border-bottom: none;
+}
+.dev-child-div:nth-child(5){
+    border-bottom: none;
 }
 .box-1{
     height: 100vh;
@@ -309,7 +316,7 @@ header{
 .hover-dev-a{
     position: absolute;
     top: 37.4%;
-    right: -50px;
+    right: -8%;
     width: 60%;
     height: 5px;
     background-color: #EDDFD8;
@@ -317,11 +324,11 @@ header{
 }
 .hover-stick-2{
     top: 87.3%;
-    left: -50px;
+    left: -8%;
 }
 .hover-stick-3{
     top: 75%;
-    left: -50px;
+    left: -8%;
 }
 .hover-stick-4{
     top: 75%;
@@ -523,4 +530,37 @@ header{
 }
 .lecturer-pic{
     display: block;
+}
+
+
+/* digital basic five */
+.digital-five-main{
+    background-image: url(../images/digital-basic.png);
+}
+.digital-stick-1{
+    top: 0%;
+    display: none;
+}
+.digital-stick-2{
+    top: 100%;
+    right: 48%;
+    display: none;
+}
+@keyframes digital-hover{
+    from {
+        display: block;
+        top: 0;
+        right: -8%;
+    }
+    to {
+        top: 100%;
+        right: 48%;
+        display: block;
+    }
+}
+.dev-a:hover div{
+    display: block;
+}
+.dev-a:hover .digital-stick-2{
+    animation: digital-hover 1s;
 }
