@@ -195,13 +195,49 @@
     grid-template-columns: 1fr 3fr 3fr;
 }
 
-.box1{
-    height: 50vh;
-    text-align: center;
-    display: flex;
-}
 .box{
-    height: 100vh;
     grid-row: 1/3;
-    display: block;
+    padding: 176px 44px 185px 34px;
+   background-color:#232221;
+   
+}
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box :nth-child(1){
+    font-size: 27px;
+    line-height:36px ;
+}
+.box :nth-child(){
+    font-size: 20px;
+    line-height:27px ;
+}
+.fa-arrow-left{
+    margin-top: 26px;
+}
+.grafic{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.box1{
+    width: 316px;
+  
+}
+.grafic h3{
+    font-size: 50px;
+}
+/* .box2{
+    width: 426px;
+} */
+.eto:hover {
+  
+    background-color: #EDDFD8;
+   
 }
