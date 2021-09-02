@@ -179,13 +179,18 @@
   }
   .dev-child-div {
     border: none;
-    border-bottom: 4px solid #eddfd8;
+    border-top: 4px solid #eddfd8;
   }
-  .dev-child-div:nth-child(2) {
+  .dev-child-div:nth-child(2){
     height: 70vh;
+    align-items:flex-end;
+    padding-bottom: 18vh;
+  }
+  .dev-child-div:nth-child(3){
+    border-top: 4px solid #eddfd8;
   }
   .dev-child-div:last-child,
-  .dev-child-div:first-child {
+  .dev-child-div:first-child{
     border: none;
   }
   .dev-child-div:last-child{

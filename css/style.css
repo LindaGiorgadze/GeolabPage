@@ -272,8 +272,8 @@ header{
     height: 50vh;
     background-color: #292c2c49;
     text-align: center;
-    border-right: 4px solid #EDDFD8;
-    border-bottom: 4px solid #EDDFD8;
+    border-left: 4px solid #EDDFD8;
+    border-top: 4px solid #EDDFD8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,18 +282,15 @@ header{
     background-color: #292c2ca4;
     transition: ease-in 0.15s;
 }
-.dev-child-div:nth-child(odd){
-    border-right: none;
-}
 .dev-child-div:first-child{
-    border-bottom: none;
-    border-right: 4px solid #EDDFD8;
+    border-top: none;
+    border-left: none;
 }
-.dev-child-div:nth-child(4){
-    border-bottom: none;
+.dev-child-div:nth-child(2){
+    border-top: none;
 }
-.dev-child-div:nth-child(5){
-    border-bottom: none;
+.dev-child-div:nth-child(3){
+    border-top: none;
 }
 .box-1{
     height: 100vh;
