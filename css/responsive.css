@@ -1,4 +1,14 @@
 @media (max-width: 1180px) {
+  /* header */
+  .burger-bar-div{
+    width: 50%;
+  }
+  .header-arrow{
+    width: 50%;
+  }
+  .nextpg-arrow-header{
+    width: 100%;
+  }
   /* development basic four */
   .dev-a {
     font-size: 38px;
@@ -155,6 +165,9 @@
   .logo-div.opened .responsive-logo{
     display: none;
   }
+  .header-arrow{
+    display: none;
+  }
   .social-div {
     display: none;
   }
@@ -237,6 +250,7 @@
   }
 
   /* development basic 4 */
+  .projects-main,
   .devBasicFour-main,
   .digital-five-main{
     width: 100%;
@@ -319,7 +333,7 @@
   }
   .bk-img{
     left: 0;
-    background-position-x: -400px;
+    background-position-x: -300px;
     background-size: cover;
   }
   .design-six-grid{
@@ -342,7 +356,7 @@
   }
   .course-fraction{
     padding-right: 0;
-    padding-top: 20vh;
+    padding-top: 22vh;
     justify-content: center;
   }
   .course-h4{
@@ -405,5 +419,15 @@
   }
   .nextpg-arrow{
     width: 32px;
+  }
+
+  /* projects page */
+  .vertical-grid-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 33vh;
+  }
+  .vertical-grid{
+    border-bottom: 4px solid #EDDFD8;
   }
 }
