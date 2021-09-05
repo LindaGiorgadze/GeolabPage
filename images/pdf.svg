@@ -1,0 +1,10 @@
+<svg id="pdf" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+  <g id="Group_191" data-name="Group 191">
+    <g id="Group_190" data-name="Group 190">
+      <path id="Path_1405" data-name="Path 1405" d="M2.9,85.333H0v20.3a2.9,2.9,0,0,0,2.9,2.9H23.2v-2.9H2.9Z" transform="translate(0 -79.533)" fill="#662e80"/>
+      <rect id="Rectangle_123" data-name="Rectangle 123" width="1.45" height="1.45" transform="translate(10.15 9.425)" fill="#662e80"/>
+      <path id="Path_1406" data-name="Path 1406" d="M105.633,0h-17.4a2.9,2.9,0,0,0-2.9,2.9V20.3a2.9,2.9,0,0,0,2.9,2.9h17.4a2.9,2.9,0,0,0,2.9-2.9V2.9A2.9,2.9,0,0,0,105.633,0ZM93.308,10.875a2.172,2.172,0,0,1-2.175,2.175h-1.45v2.9H87.508V7.25h3.625a2.172,2.172,0,0,1,2.175,2.175Zm7.25,2.9a2.172,2.172,0,0,1-2.175,2.175H94.758V7.25h3.625a2.172,2.172,0,0,1,2.175,2.175Zm5.8-4.35h-2.175v1.45h2.175V13.05h-2.175v2.9h-2.175V7.25h4.35Z" transform="translate(-79.533)" fill="#662e80"/>
+      <rect id="Rectangle_124" data-name="Rectangle 124" width="1.45" height="4.35" transform="translate(17.4 9.425)" fill="#662e80"/>
+    </g>
+  </g>
+</svg>
