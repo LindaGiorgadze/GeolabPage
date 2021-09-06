@@ -699,15 +699,12 @@ header{
 
 /* About us - ლიკა მოშიაშვილი */
 .us-wrapper{
-    position: relative;
     display: flex;
     justify-content: space-evenly;
     left: 107px;
     margin-top: 170px;
 }
 .left{
-    /* display: flex; */
-    /* position: absolute; */
     max-width: 481px;
     width: 100%;
 }
