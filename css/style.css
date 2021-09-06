@@ -695,3 +695,61 @@ header{
 .lecturer-pic{
     display: block;
 }
+
+
+/* About us - ლიკა მოშიაშვილი */
+.us-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    left: 107px;
+    margin-top: 170px;
+}
+.left{
+    /* display: flex; */
+    /* position: absolute; */
+    max-width: 481px;
+    width: 100%;
+}
+.left h3{
+    font-size: 25px;
+    margin-bottom: 56px;
+}
+.left p{
+    font-size: 20px;
+    max-width: 350px;
+    width: 100%;
+}
+.text-wrapper{
+    color: #662E80;
+    background-color: #FFF0E8;
+    padding: 22px 19px;
+}
+.right{
+    max-width: 650px;
+    width: 100%;
+    line-height: 1.2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: inherit;
+}
+.portfolio{
+    max-width: 330px;
+    width: 100%;
+    color: #662E80;
+    display: block;
+    /* margin-top: 57px; */
+}
+.go-back{
+    color: #662E80;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 236px;
+    max-width: 169px;
+    width: 100%;
+    margin-top: 85px;
+    font-size: 18px;
+    cursor: pointer;
+}
