@@ -464,7 +464,7 @@ header{
 }
 .dev-child-div:last-child,
 .dev-child-div:first-child{
-    border-bottom: none;
+    /* border-bottom: none; */
     border-right: 4px solid #EDDFD8;
 }
 .box-1{
@@ -700,21 +700,30 @@ header{
 /* About us - ლიკა მოშიაშვილი */
 .us-wrapper{
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
     margin-top: 170px;
+    margin-left: 262px;
 }
 .left{
     max-width: 481px;
     width: 100%;
 }
+.member h3,
 .left h3{
     font-size: 25px;
     margin-bottom: 56px;
 }
+.member p,
 .left p{
     font-size: 20px;
     max-width: 350px;
     width: 100%;
+}
+.member img{
+    max-width: 480px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
 }
 .text-wrapper{
     color: #662E80;
@@ -727,6 +736,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 87px;
 }
 .portfolio{
     max-width: 330px;
@@ -742,13 +752,131 @@ header{
 }
 .go-back{
     color: #662E80;
-    position: relative;
     display: flex;
     justify-content: space-between;
-    left: 236px;
     max-width: 169px;
     width: 100%;
     margin-top: 85px;
     font-size: 18px;
     cursor: pointer;
+    margin-left: 262px;
+}
+
+/* about us - history, team  */
+.history{
+    margin-top: 170px;
+    margin-left: 262px;
+    margin-right: 140px;
+}
+.history h1{
+    color: #662E80;
+    font-size: 50px;
+    margin-bottom: 56px;
+}
+.history p{
+    font-size: 18px;
+    font-family: Helvetica Neue LT GEO;
+}
+.selected-img{
+    margin-top: 38px;
+    margin-bottom: 125px;
+    max-width: 600px;
+    width: 100%;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.member{
+    max-width: 355px;
+    width: 100%;
+    max-height: 475px;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.center{
+    text-align: center;  
+}
+
+.button{
+  border: 1px solid #662E80;
+  background-color: #FFF0E8;
+  color: #662E80;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 86px;
+  margin-bottom: 120px;
+  cursor: pointer;
+  
+}
+
+.slider{
+    display: flex;
+    max-width: 160px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+.dot {
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    border: 1px #662E80 solid;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.actives, 
+.dot:hover {
+  background-color: #662E80;
+}
+.mySlides {display: none}
+
+.slideshow-container {
+    position: relative;
+    margin: 90px auto;
+    display: block;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.slideshow-container img{
+    max-width: 340px;
+    width: 100%;
+
+}
+
+/* რუკა */
+.courses{
+    display: block;
+}
+
+.courses h2{
+    font-size: 50px;
+    margin-bottom: 45px;
+    color: #EDDFD8;
+}
+
+.courses a{
+    color: #EDDFD8;
+    text-align: start;
+    padding-bottom: 13px;
 }
