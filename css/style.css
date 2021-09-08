@@ -482,6 +482,16 @@ header{
     top: 75%;
     right: -5px;
 }
+.hover-dev-a2{
+    position: absolute;
+    top:20%;
+    right: -8%;
+    width: 60%;
+    height: 5px;
+    background-color: #EDDFD8;
+    display: none;
+}
+
 
 
 
