@@ -710,12 +710,12 @@ header{
 }
 .member h3,
 .left h3{
-    font-size: 25px;
+    font-size: 2vw;
     margin-bottom: 56px;
 }
 .member p,
 .left p{
-    font-size: 20px;
+    font-size: 1vw;
     max-width: 350px;
     width: 100%;
 }
@@ -770,11 +770,11 @@ header{
 }
 .history h1{
     color: #662E80;
-    font-size: 50px;
+    font-size: 4vw;
     margin-bottom: 56px;
 }
 .history p{
-    font-size: 18px;
+    font-size: 1.3vw;
     font-family: Helvetica Neue LT GEO;
 }
 .selected-img{
@@ -806,7 +806,7 @@ header{
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2vw;
   margin-top: 86px;
   margin-bottom: 120px;
   cursor: pointer;
@@ -819,7 +819,7 @@ header{
     width: 100%;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 54px;
+    margin-top: 50px;
 }
 .dot {
     cursor: pointer;
@@ -836,9 +836,10 @@ header{
 .mySlides {display: none}
 
 .slideshow-container {
-    position: relative;
-    margin: 90px auto;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
 }
 
 .fade {
@@ -870,13 +871,22 @@ header{
 }
 
 .courses h2{
-    font-size: 50px;
+    font-size: 3vw;
     margin-bottom: 45px;
     color: #EDDFD8;
 }
 
-.courses a{
+.courses a,
+.fa-square{
     color: #EDDFD8;
     text-align: start;
-    padding-bottom: 13px;
+    padding-bottom: 7px;
+    font-size: 1vw;
+}
+.fa-square {
+    margin-right: 7px;
+}
+
+*{
+    box-sizing: border-box;
 }
