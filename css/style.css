@@ -289,7 +289,6 @@ header{
     height: 100vh;
     margin-left: 7%;
     width: 93%;
-    height: 100%;
     background-color: #292C2C;
     background-position: center;
     background-repeat: no-repeat;
@@ -620,7 +619,7 @@ header{
     text-align: center;
     background-color: #292c2c49;
     border-right: 4px solid #EDDFD8;
-}
+} 
 .vertical-grid:hover{
     background-color: #292c2ca4;
     transition: ease-in 0.15s;
@@ -654,12 +653,103 @@ header{
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 50vh;
     overflow-y: auto;
-    overflow-x: hidden;
     height: 100vh;
 }
+.box-2::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
 .project-child-div:first-child{
     border-top: none;
 }
 .project-child-div:nth-child(2){
     border-top: none;
+}
+
+/* news page */
+.news-main{
+    margin-left: 7%;
+    width: 93%;
+    height: 100vh;  
+    background-color: #FFF0E8;
+    background-image: url(../images/news.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
+}
+.news-section{
+    background-color: #fff0e898;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+}
+.news-blur{
+    display: none;
+}
+.news-header{
+    font-size: 50px;
+    line-height: 67px;
+    color: #662E80;
+    margin-bottom: 4%;
+}
+.news-box{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.news-box::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.news-content{
+    width: 48%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.news-content:first-child{
+    margin-top: 0;
+}
+.news-pic{
+    width: 100%;
+}
+.news-date{
+    font-size: 18px;
+    line-height: 24px;
+    color: #060606;
+    font-style: italic;
+    margin: 21px 0;
+}
+.news-par{
+    font-size: 18px;
+    line-height: 24px;
+    color: #060606;
+    margin-bottom: 22px;
+}
+.news-more-info{
+    display: flex;
+    align-items: center;
+}
+.more-span{
+    font-size: 18px;
+    line-height: 24px;
+    color: #662E80;
+    margin-right: 36px;
+}
+.news-more-info-arrow{
+    transform: rotate(180deg);
+    width: 95%;
 }
