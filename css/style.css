@@ -484,7 +484,7 @@ header{
 }
 .hover-dev-a2{
     position: absolute;
-    top:20%;
+    top:-10%;
     right: -8%;
     width: 60%;
     height: 5px;
@@ -548,4 +548,26 @@ header{
     top: 87.3%;
     left: -20%;
     height: 20px;
+}
+
+/* design professional */
+.main-content4{
+    height: 100vh;
+    margin-left: 7%;
+    width: 93%;
+    height: 100%;
+    background: url(../images/design-professional.png) repeat, linear-gradient(rgb(0 0 0 / 100%) 100%, #FFFF 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main-content5{
+    height: 100vh;
+    margin-left: 7%;
+    width: 93%;
+    height: 100%;
+    background: url(../images/development.png) repeat, linear-gradient(rgb(0 0 0 / 100%) 100%, #FFFF 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
