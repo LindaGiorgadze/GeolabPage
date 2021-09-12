@@ -700,9 +700,10 @@ header{
 /* About us - ლიკა მოშიაშვილი */
 .us-wrapper{
     display: flex;
-    /* justify-content: space-between; */
-    margin-top: 170px;
-    margin-left: 262px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 200px;
 }
 .left{
     max-width: 481px;
@@ -710,33 +711,38 @@ header{
 }
 .member h3,
 .left h3{
-    font-size: 2vw;
-    margin-bottom: 56px;
+    font-size: 22px;
+    margin-bottom: 50px;
 }
 .member p,
 .left p{
-    font-size: 1vw;
+    font-size: 20px;
     max-width: 350px;
     width: 100%;
 }
-.member img{
-    max-width: 480px;
+.left img{
+    max-width: 481px;
     width: 100%;
-    max-height: 300px;
-    height: 100%;
+}
+.member img{
+    width: 100%;
 }
 .text-wrapper{
+    width: 100%;
     color: #662E80;
     background-color: #FFF0E8;
     padding: 22px 19px;
 }
 .right{
-    max-width: 650px;
+    max-width: 600px;
     width: 100%;
+    min-height: 800px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 87px;
+    margin-right: 100px;
+    line-height: 1.3;
 }
 .portfolio{
     max-width: 330px;
@@ -750,16 +756,21 @@ header{
     text-transform: uppercase;
     font-size: 22px;
 }
+.portfolio h2,
+.portfolio a{
+    margin-bottom: 23px;
+}
 .go-back{
     color: #662E80;
     display: flex;
-    justify-content: space-between;
     max-width: 169px;
     width: 100%;
-    margin-top: 85px;
     font-size: 18px;
     cursor: pointer;
-    margin-left: 262px;
+    margin: 85px 0 70px 200px;
+}
+.go-back p{
+    margin-left: 30px;
 }
 
 /* about us - history, team  */
@@ -770,12 +781,17 @@ header{
 }
 .history h1{
     color: #662E80;
-    font-size: 4vw;
+    font-size: 50px;
     margin-bottom: 56px;
 }
 .history p{
     font-size: 1.3vw;
     font-family: Helvetica Neue LT GEO;
+}
+.geolab-history{
+    column-count: 2; 
+    /* column-gap: 120px;  */
+    line-height: 1.3;
 }
 .selected-img{
     margin-top: 38px;
@@ -789,10 +805,11 @@ header{
     flex-wrap: wrap;
 }
 .member{
-    max-width: 355px;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 350px;
     max-height: 475px;
-    height: 100%;
     margin-bottom: 50px;
 }
 .center{
@@ -879,6 +896,8 @@ header{
     font-size: 3vw;
     margin-bottom: 45px;
     color: #EDDFD8;
+    max-width: 400px;
+    width: 100%;
 }
 
 .courses a,
@@ -898,3 +917,8 @@ header{
 .responsive-logo {
     display: none;
 }
+
+
+
+
+
