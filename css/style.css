@@ -666,7 +666,7 @@ header{
 .dev-child-div:nth-child(odd){
     border-right: none;
 }
-.dev-child-div:last-child,
+.dev-child-div,
 .dev-child-div:first-child{
     /* border-bottom: none; */
     border-right: 4px solid #EDDFD8;
@@ -1073,6 +1073,11 @@ header{
 .courses{
     display: block;
 }
+.coursesList{
+    display: flex; 
+    flex-direction: column;
+    
+}
 
 .courses h2{
     font-size: 3vw;
@@ -1093,4 +1098,7 @@ header{
 
 *{
     box-sizing: border-box;
+}
+.responsive-logo {
+    display: none;
 }
