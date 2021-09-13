@@ -566,8 +566,99 @@ header{
     margin-left: 7%;
     width: 93%;
     height: 100%;
-    background: url(../images/development.png) repeat, linear-gradient(rgb(0 0 0 / 100%) 100%, #FFFF 100%);
+    background: url(../images/design-professional.png) repeat, linear-gradient(rgb(0 0 0 / 100%) 100%, #FFFF 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.box-2{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 50vh;
+    overflow-y: auto;
+    height: 100vh;
+}
+.box-2::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
+  .box-2::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
+.project-child-div:first-child{
+    border-top: none;
+}
+.project-child-div:nth-child(2){
+    border-top: none;
+}
+/* news-inside */
+.news-main{
+    margin-left: 7%;
+    width: 93%;
+    height: 100vh;
+    background-color: #FFF0E8;
+    background-image: url(../images/news-insde.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.news-section {
+    background-color: #fff0e898;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+    padding-top: 5%;
+    padding-left: 6%;
+}
+
+
+.news-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.news-header {
+    font-size: 50px;
+    line-height: 67px;
+    color: #662E80;
+    margin-bottom: 4%;
+}
+.news-content {
+    width: 70%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.news-pic {
+    width: 100%;
+}
+.news-date {
+    font-size: 18px;
+    line-height: 24px;
+    color: #060606;
+    font-style: italic;
+    margin: 21px 0;
+}
+.news-par {
+    font-size: 18px;
+    line-height: 24px;
+    color: #060606;
+    margin-bottom: 22px;
 }
