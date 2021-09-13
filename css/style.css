@@ -617,7 +617,7 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-   
+    flex-direction: column;
     padding-top: 5%;
     padding-left: 6%;
 }
@@ -639,7 +639,6 @@ header{
 }
 .news-content {
     width: 70%;
-    margin-top: 90px;
     display: flex;
     justify-content: start;
     align-items: start;
