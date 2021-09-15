@@ -702,8 +702,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-left: 200px;
+    padding-top: 100px;
+    padding-left: 200px;
 }
 .left{
     max-width: 481px;
@@ -749,7 +749,6 @@ header{
     width: 100%;
     max-height: 100px;
     height: 100%;
-    color: #662E80;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -759,23 +758,32 @@ header{
 .portfolio h2,
 .portfolio a{
     margin-bottom: 23px;
+    color: #662E80;
 }
-.go-back{
+.arrow{
     color: #662E80;
     display: flex;
     max-width: 169px;
     width: 100%;
     font-size: 18px;
     cursor: pointer;
-    margin: 85px 0 70px 200px;
 }
-.go-back p{
+.arrow p{
     margin-left: 30px;
+}
+.go-back{
+    padding: 85px 0 70px 200px;
+}
+
+.at_thetop{   
+    display: none;
+    justify-content: flex-end;
+    padding: 20px 50px 0 0;
 }
 
 /* about us - history, team  */
 .history{
-    margin-top: 170px;
+    padding-top: 170px;
     margin-left: 262px;
     margin-right: 140px;
 }
@@ -790,7 +798,7 @@ header{
 }
 .geolab-history{
     column-count: 2; 
-    /* column-gap: 120px;  */
+    column-gap: 7%; 
     line-height: 1.3;
 }
 .selected-img{
@@ -917,8 +925,4 @@ header{
 .responsive-logo {
     display: none;
 }
-
-
-
-
 

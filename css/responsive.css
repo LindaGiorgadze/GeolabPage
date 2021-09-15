@@ -155,7 +155,8 @@
       z-index: 11;
     }
     .bar {
-      background-color: #eddfd8;
+      /* background-color: #eddfd8; */
+      background-color: #662E86;
     }
     .burger-bar-div.opened .stik1{
       background-color: #662E86;
@@ -532,7 +533,7 @@
 
   @media (max-width: 1440px){
     .history{
-        margin: 150px;
+        padding-top: 150px;
     }
   }
   @media (max-width: 1300px) {
@@ -576,22 +577,28 @@
         margin-top: 55px;
     }
     .slideshow-container img{
-        max-width: 623px;
+        max-width: 100vw;
         width: 100%;
     }
     .slider{
         margin-bottom: 75px;
     }
+    
+    .go-back{
+      display: none;
+    }
+    .at_thetop{
+      display: flex;
+    }
+    
   }
 
   
 
   @media (max-width: 768px){
     .us-wrapper,
-    .go-back,
     .history{
-        padding: 36px;
-        margin: 0 auto;
+        padding: 50px;
     }
     .courses h2{
         font-size: 100%;
@@ -601,6 +608,9 @@
     }
     .history{
         margin: 0 auto;
+    }
+    .geolab-history{
+      column-count: 1;
     }
 }
 
