@@ -725,6 +725,9 @@ header{
     width: 100%;
 }
 .member img{
+    max-width: 350px;
+    max-height: 220px;
+    height: 100%;
     width: 100%;
 }
 .text-wrapper{
@@ -824,19 +827,8 @@ header{
     text-align: center;  
 }
 
-.button{
-  border: 1px solid #662E80;
-  background-color: #FFF0E8;
-  color: #662E80;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 2vw;
-  margin-top: 86px;
-  margin-bottom: 120px;
-  cursor: pointer;
-  
-}
+ 
+
 
 .slider{
     display: flex;
@@ -924,5 +916,36 @@ header{
 }
 .responsive-logo {
     display: none;
+}
+
+
+/* load more button */
+.list {
+    margin: 0px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.list-element {
+    display: none;
+}
+
+#loadmore {
+    border: 1px solid #662E80;
+    background-color: #FFF0E8;
+    color: #662E80;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    margin-top: 86px;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+
+.list .list-element:nth-child(1) {
+    display: block;
+}
+.list .list-element:nth-child(2) {
+    display: block;
 }
 
