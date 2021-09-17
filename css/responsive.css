@@ -546,9 +546,6 @@
     margin-top: 23px;
     margin-bottom: 25px;
 }
-.text-wrapper{
-    width: 100%;
-}
   }
 
 /* courses */
@@ -561,7 +558,6 @@
 
     .team,
     .member{
-        flex-direction: column;
         margin: auto;
         margin-bottom: 55px;
     }

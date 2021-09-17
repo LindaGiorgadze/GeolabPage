@@ -712,7 +712,6 @@ header{
 .member h3,
 .left h3{
     font-size: 22px;
-    margin-bottom: 50px;
 }
 .member p,
 .left p{
@@ -724,13 +723,16 @@ header{
     max-width: 481px;
     width: 100%;
 }
-.member img{
-    max-width: 350px;
-    max-height: 220px;
-    height: 100%;
+.lecturer_photo{
+    /* max-height: 325px; */
+    /* height: 100%; */
     width: 100%;
 }
 .text-wrapper{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     color: #662E80;
     background-color: #FFF0E8;
@@ -820,8 +822,9 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 350px;
-    max-height: 475px;
+    width: 100%;
     margin-bottom: 50px;
+    
 }
 .center{
     text-align: center;  
