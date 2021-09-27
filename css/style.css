@@ -815,14 +815,13 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 6%;
     
 }
 .news-header {
     font-size: 50px;
     line-height: 67px;
     color: #662E80;
-    margin-bottom: 4%;
+
 }
 .news-content {
     width: 70%;
@@ -855,6 +854,12 @@ header{
 .dev-a1:hover{
     color:white;
 }
+.news-more-info{
+    margin-bottom: 20vh;
+}
+.news-blur{
+    display: none;
+}
 /* video-lectures */
 .courses h2 {
     font-size: 3vw;
@@ -866,12 +871,17 @@ header{
 .coursesList {
     display: flex;
     flex-direction: column;
+    height: 73%;
 }
 .courses a, .fa-square {
     color: #EDDFD8;
     text-align: start;
     padding-bottom: 7px;
-    font-size: 1vw;
+    font-size: 14px;
+}
+.courses{
+    height: 70%;
+    width: 76%;
 }
 
 
@@ -879,3 +889,4 @@ header{
     top: 0%;
     display: none;
 }
+
