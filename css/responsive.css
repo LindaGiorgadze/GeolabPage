@@ -242,6 +242,15 @@
     .block:hover .dev-a{
         display: none;
     }
+    .bk{
+        position: absolute;
+        top:0;
+    }
+    .block:hover .dev-a{
+        display: none;
+    }
+    
+   
     
     /* development-prof */
     .back-a{
@@ -273,7 +282,7 @@
         text-align: end;
     }
     .back-a:hover {
-        padding: 0 8% 0 0;
+        padding: 6vh 8% 0 0;
         background-color: inherit;
     }
     .back-a{
@@ -281,7 +290,7 @@
     }
     .box-2 {
         grid-template-columns: 1fr;
-        margin-top: 20%;
+    
     }
     .project-child-div {
         border: none;
@@ -300,9 +309,7 @@
         font-size: 10px;
     }
  /* burger-bar */
-   .bar-course {
-        background-color: #eddfd8;
-}
+   
     /* news-inside */
     .news-main{
         width: 100%;
@@ -372,16 +379,127 @@
         height: 100%;
     
     }
-
-
-
-
-
-    .block:hover .block-a{
-        display:none ;
-
-
+    /* design-profesional */
+    .main-content4{
+        width: 100%;
+        margin-left: 0;
+        background-size: cover;
     }
+    .box{
+        border-left: 0;
+    }
+    .box-wrapper :nth-child(4){
+        display: none;
+    }
+    .box-wrapper :nth-child(5){
+        display: none;
+    }
+    .dev-a{
+        font-size: 28px;
+    }
+
+
+    /* basic-10 */
+    .basic-design-shadow{
+        left: 0;
+        grid-template-columns: 1fr;
+      }
+      .backto-page-space{
+        background-color: #eddfd8;
+      }
+      .bk-img{
+        left: 0;
+        background-position-x: -300px;
+        background-size: cover;
+      }
+      .design-six-grid{
+        left: 0;
+        grid-template-columns: 1fr;
+      }
+     
+      .course-info-a{
+        background: linear-gradient(#F2EBE7, #f2ebe7e1, #f2ebe7a2,  #f2ebe700);
+        color: #662E86;
+      }
+      .main-arrow{
+        display: none;
+      }
+      .responsive-arrow{
+        display: block;
+      }
+      .course-fraction{
+        padding-right: 0;
+        padding-top: 22vh;
+        justify-content: center;
+      }
+      .course-h4{
+        font-size: 16px;
+        line-height: 21px;
+      }
+      .course-h2{
+        margin-bottom: 31px;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+      }
+      .course-details{
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .course-detail-span-bold{
+        font-size: 23px;
+        line-height: 31px;
+      }
+      .sign-up-1{
+        position: fixed;
+        bottom: 7%;
+        right: 7%;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 7px 13px 7px 20px;
+      }
+      .course-article{
+        width: 100%;
+      }
+      .course-paragraph{
+        font-size: 12px;
+        line-height: 19px;
+      }
+      .sign-up-course{
+        width: 100%;
+        margin-bottom: 51px;
+      }
+      .syllabus{
+        font-size: 10px;
+        line-height: 16px;
+      }
+      .syllabus-img{
+        width: 19px;
+        margin-right: 19px;
+      }
+      .lecturers-div{
+        padding-bottom: 22vh;
+      }
+      .lecturer-h{
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 59px;
+      }
+      .lecturer{
+        font-size: 17px;
+        line-height: 22px;
+      }
+      .lecturer-position{
+        font-size: 14px;
+        line-height: 19px;
+      }
+      .nextpg-arrow{
+        width: 32px;
+      }
+
+
+
+  
  
 
 }
