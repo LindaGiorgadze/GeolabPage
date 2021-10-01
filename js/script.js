@@ -7,13 +7,16 @@ toggleButton.addEventListener('click', function(){
 })
 
 const menuBtn = document.querySelector('.burger-bar-div');
+const logoBox = document.querySelector('.logo-div');
 let menuOpen = false;
 menuBtn.addEventListener('click', ()=>{
   if(!menuOpen){
     menuBtn.classList.add('opened');
+    logoBox.classList.add('opened')
     menuOpen = true;
   }else{
     menuBtn.classList.remove('opened');
+    logoBox.classList.remove('opened')
     menuOpen = false;
   }
 });

@@ -47,7 +47,7 @@
     }
     .hover-stick-4 {
       top: 71%;
-      right: -5px;
+      right: -15px;
     }
     .digital-stick-1{
       width: 40%;
@@ -103,7 +103,7 @@
       padding: 10px 30px;
     }
     .menu-social{
-      align-items: flex-start;
+      align-items: baseline;
       flex-direction: column;
     }
     .menu-social-div{
@@ -111,7 +111,7 @@
     }
     /* development basic four */
     .dev-a {
-      font-size: 30px;
+      font-size: 28px;
     }
     .back-a {
       font-size: 22px;
@@ -134,7 +134,7 @@
     }
     .hover-stick-4 {
       top: 68%;
-      right: -5px;
+      right: -10px;
     }
     .digital-stick-1{
       width: 40%;
@@ -159,6 +159,9 @@
           right: 64%;
           display: block;
       }
+    }
+    .dev-a:hover .digital-stick-2{
+      animation: digital-hover 0.5s;
     }
   }
   @media (max-width: 768px) {
@@ -305,8 +308,7 @@
       border: none;
     }
     .dev-child-div:last-child{
-      height: 40vh;
-      border-top: 4px solid #eddfd8;
+      height: 0vh;
     }
     .dev-a-div {
       width: 100%;
@@ -340,7 +342,7 @@
       background: none;
     }
     .back-a:hover{
-      padding: 0 8% 0 0;
+      padding: 6vh 8% 0 0;
       background-color: inherit;
     }
     .back-a span {
@@ -399,7 +401,7 @@
       font-size: 15px;
       line-height: 20px;
     }
-    .course-detail-span{
+    .course-detail-span-bold{
       font-size: 23px;
       line-height: 31px;
     }
@@ -485,6 +487,10 @@
       align-items: flex-end;
       padding-bottom: 15vh;
     }
+    /* geolab projects */
+    .geolab-projects{
+      background-position: center;
+    }
     /* student projects */
     .project-grid{
       grid-template-columns: 1fr;
@@ -543,6 +549,10 @@
     }
   }
   @media (max-width: 425px){
+    /* overlay manu */
+    .social-links-2 {  
+      font-size: 5px;
+    }
     /* news page */
     .news-header{
       font-size: 30px;
