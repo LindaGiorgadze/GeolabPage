@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/4a086cb2a88d233347fbf65f4a8b6ead?family=HelveticaNeueLTW01-75Bold);
 /* header */
 
 header{
@@ -85,7 +86,9 @@ header{
     margin-left: 24px;
 }
 .social-links-2{
-    font-size: 11px;
+    font-family: 'Integral CF';
+    font-size: 10px;
+    line-height: 11px;
     text-transform: capitalize;
     color: #662E80;
     margin-left: 24px;
@@ -554,7 +557,7 @@ header{
     line-height: 33px;
     color: #232221;
 }
-.course-detail-span{
+.course-detail-span-bold{
     font-size: 30px;
     line-height: 45px;
     font-weight: bold;
@@ -625,6 +628,11 @@ header{
     align-items: center;
     padding: 56px 20px 10px 20px;
 }
+.lecturer-pic {
+    max-width: 480px;
+    width: 100%;
+    display: block;
+}
 .dev-a-div {
     text-align: left;
     display: flex;
@@ -641,6 +649,11 @@ header{
     line-height: 67px;
     width: auto;
     text-transform: uppercase;
+    font-family: "HelveticaNeueLTW01-75Bold";
+}
+.dev-a-eng{
+    font-family: 'Integral CF';
+    font-weight: bold;
 }
 
 .hover-dev-a{

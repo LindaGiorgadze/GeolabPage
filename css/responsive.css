@@ -9,6 +9,11 @@
         font-size: 130%;
     }
 }
+@media(max-width:1180px){
+  .about-course {
+    width: 80%;
+}
+}
 
 @media(max-width:1000px){
    
@@ -56,10 +61,7 @@
     .hover-dev-a1{
         display: none;
     }
-    .dev-a:hover div{
-        display:none;
-
-    }
+    
     header {
         background-color: inherit;
         padding: 0 10%;
@@ -565,6 +567,20 @@
     .news-more-info-arrow {
         transform: rotate(180deg);
     
+    }
+
+    .burger-learn{
+      margin-top: 0;
+    }
+    .burger-learn :nth-child(1){
+      margin-bottom: 8px;
+      position: inherit;
+      
+    }
+    .burger-learn :nth-child(2){
+     
+      position: inherit;
+     
     }
     
     
