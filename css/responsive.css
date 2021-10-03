@@ -206,6 +206,12 @@
         border-bottom: 4px solid #EDDFD8;;
 
     }
+    .block:hover .bk1{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
     .vertical-grid{
         display: block;
         border: none;
