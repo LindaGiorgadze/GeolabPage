@@ -1138,7 +1138,8 @@
       line-height: 40px;
       margin-bottom: 10%;
 
-
+    }
+  }
  /* Maggie */
 
   @media (max-width: 1440px){
@@ -1149,13 +1150,13 @@
   @media (max-width: 1300px) {
  /* about_us resp */
  
- .right{
-    margin-top: 45px;
-}
-.portfolio{
-    margin-top: 23px;
-    margin-bottom: 25px;
-}
+    .right{
+        margin-top: 45px;
+    }
+    .portfolio{
+        margin-top: 23px;
+        margin-bottom: 25px;
+    }
   }
 
 /* courses */
@@ -1218,28 +1219,29 @@
     .geolab-history{
       column-count: 1;
     }
-}
+  }
 
-    @media (max-width: 425px){
-        /* news page */
-        .news-header{
-          font-size: 30px;
-          line-height: 40px;
-          margin-bottom: 10%;
-        }
-        .news-par{
-          font-size: 13px;
-          line-height: 15px;
-        }
-        .more-span{
-          font-size: 14px;
-          line-height: 19px;
-          margin-right: 16px;
-        }
-        .news-more-info-arrow{
-          width: 37%;
-        }
-        .history h1{
-            font-size: 100%;
-        }
+@media (max-width: 425px){
+    /* news page */
+    .news-header{
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 10%;
     }
+    .news-par{
+      font-size: 13px;
+      line-height: 15px;
+    }
+    .more-span{
+      font-size: 14px;
+      line-height: 19px;
+      margin-right: 16px;
+    }
+    .news-more-info-arrow{
+      width: 37%;
+    }
+    .history h1{
+        font-size: 100%;
+    }
+}
+  
