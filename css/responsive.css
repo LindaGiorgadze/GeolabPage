@@ -212,7 +212,8 @@
       z-index: 11;
     }
     .bar {
-      background-color: #eddfd8;
+      /* background-color: #eddfd8; */
+      background-color: #662E86;
     }
     .burger-bar-div.opened .stik1{
       background-color: #662E86;
@@ -529,6 +530,7 @@
     .geolab-projects{
       background-position: center;
     }
+
     /* student projects */
     .project-grid{
       grid-template-columns: 1fr;
@@ -1135,17 +1137,109 @@
       font-size: 30px;
       line-height: 40px;
       margin-bottom: 10%;
-    }
-    .news-par{
-      font-size: 13px;
-      line-height: 15px;
-    }
-    .more-span{
-      font-size: 14px;
-      line-height: 19px;
-      margin-right: 16px;
-    }
-    .news-more-info-arrow{
-      width: 37%;
+
+
+ /* Maggie */
+
+  @media (max-width: 1440px){
+    .history{
+        padding-top: 150px;
     }
   }
+  @media (max-width: 1300px) {
+ /* about_us resp */
+ 
+ .right{
+    margin-top: 45px;
+}
+.portfolio{
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+  }
+
+/* courses */
+  @media (max-width: 1024px){
+    .text-wrapper h3,
+    .text-wrapper p,
+    .portfolio{
+        font-size: 100%;
+    }
+
+    .team,
+    .member{
+        margin: auto;
+        margin-bottom: 55px;
+    }
+    .text-wrapper h3,
+    .text-wrapper p,
+    .portfolio{
+        font-size: 100%;
+    }
+    .selected-img{
+        display: none;
+    }
+    .slideshow-container{
+        margin-top: 55px;
+    }
+    .slideshow-container img{
+        max-width: 100vw;
+        width: 100%;
+    }
+    .slider{
+        margin-bottom: 75px;
+    }
+    
+    .go-back{
+      display: none;
+    }
+    .at_thetop{
+      display: flex;
+    }
+    
+  }
+
+  
+
+  @media (max-width: 768px){
+    .us-wrapper,
+    .history{
+        padding: 50px;
+    }
+    .courses h2{
+        font-size: 100%;
+    }
+    .courses a{
+        font-size: 70%;
+    }
+    .history{
+        margin: 0 auto;
+    }
+    .geolab-history{
+      column-count: 1;
+    }
+}
+
+    @media (max-width: 425px){
+        /* news page */
+        .news-header{
+          font-size: 30px;
+          line-height: 40px;
+          margin-bottom: 10%;
+        }
+        .news-par{
+          font-size: 13px;
+          line-height: 15px;
+        }
+        .more-span{
+          font-size: 14px;
+          line-height: 19px;
+          margin-right: 16px;
+        }
+        .news-more-info-arrow{
+          width: 37%;
+        }
+        .history h1{
+            font-size: 100%;
+        }
+    }
