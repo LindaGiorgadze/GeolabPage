@@ -757,6 +757,9 @@ header{
 .news-content:first-child{
     margin-top: 0;
 }
+.news-content:last-child {
+    padding-bottom: 50px;
+}
 .news-pic{
     width: 100%;
 }
