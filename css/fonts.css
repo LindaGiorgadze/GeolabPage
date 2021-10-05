@@ -10,3 +10,17 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'HelveticaNeueLT 55 Roman';
+    src: url('../fonts/HelveticaNeueLT-75Bd.eot');
+    src: url('../fonts/HelveticaNeueLT-75Bd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLT-75Bd.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLT-75Bd.woff') format('woff'),
+        url('../fonts/HelveticaNeueLT-75Bd.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLT-75Bd.svg#HelveticaNeueLT-75Bd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
